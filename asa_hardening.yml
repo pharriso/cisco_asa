@@ -1,0 +1,9 @@
+---
+
+- hosts: cisco_asa
+  gather_facts: false
+  become: yes
+  tasks:
+  - name: cisco asa password control check 
+    asa_config:
+      src: /tmp/asa_password_policy.txt

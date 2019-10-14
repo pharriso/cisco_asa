@@ -1,0 +1,10 @@
+[cisco_asa]
+52.30.208.196
+
+[cisco_asa:vars]
+ansible_user=admin
+ansible_network_os=asa
+ansible_connection=network_cli
+ansible_ssh_private_key_file=~/.ssh/id_rsa
+ansible_become_method=enable
+ansible_become_password=Redhat123
