@@ -6,4 +6,4 @@
   tasks:
   - name: cisco asa password control check 
     asa_config:
-      src: /tmp/asa_password_policy.txt
+      src: files/asa_password_policy.txt
