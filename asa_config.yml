@@ -1,0 +1,7 @@
+---
+
+- hosts: cisco_asa
+  gather_facts: false
+  become: yes
+  roles:
+    - asa_password_policy

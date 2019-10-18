@@ -1,0 +1,6 @@
+---
+
+- name: cisco asa password control check
+  asa_config:
+    src: files/asa_password_policy.txt
+
