@@ -1,0 +1,8 @@
+---
+
+- name: cisco asa password control check
+  asa_config:
+    lines: 
+      - ntp server {{ ntp_server1 }}
+      - ntp server {{ ntp_server2 }}
+

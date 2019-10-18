@@ -1,0 +1,4 @@
+---
+
+ntp_server1: 8.8.8.8
+ntp_server2: 8.8.4.4
